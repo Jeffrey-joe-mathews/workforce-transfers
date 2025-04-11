@@ -1,3 +1,4 @@
+import TestimonialsColumn from "@/components/testimonialsColumn";
 import Image from "next/image";
 
 const testimonials = [
@@ -57,24 +58,33 @@ const testimonials = [
   },
 ];
 
+export type testimonialsType = typeof testimonials;
+
 export const Testimonials = () => {
   return (
     <section className="py-10 overflow-hidden p-5" >
       <div className="container">
-        <h2 className="text-6xl font-medium mt-6" >Testimonials</h2>
-        <p className="text-black/70 " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati odio, explicabo dolore totam veritatis, eos reprehenderit animi similique voluptates fugiat officiis nulla, iure ducimus eligendi ipsam eaque. Fugit, maxime similique? Inventore dicta nostrum placeat dolore!</p>
-
-        <div className="h-[400px] mt-8 overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,white_10%,white_90%,transparent)]" >
-          <div className="flex flex-col gap-4 pb-4" >
-            { testimonials.map((testimonial) => (
-              <div className="bg-white border border-black/20 rounded-3xl p-6" key ={testimonial.username} >
-                <div className="flex justify-center " >
-                  <Image src={`/${testimonial.imageSrc}`} alt={testimonial.username} width={300} height={300} className="size-24" />
+         <div className="grid lg:grid-cols-2 items-center lg:gap-16" >
+          <div>
+            <h2 className="text-6xl font-medium mt-6" >Testimonials</h2>
+            <p className="text-black/70 " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati odio, explicabo dolore totam veritatis, eos reprehenderit animi similique voluptates fugiat officiis nulla, iure ducimus eligendi ipsam eaque. Fugit, maxime similique? Inventore dicta nostrum placeat dolore!</p>
+          </div>
+          <div>
+            <div className="h-[400px] lg:h-[800px] grid md:grid-cols-2 gap-5 mt-8 overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,white_10%,white_90%,transparent)]" >
+            {/* <div className="flex flex-col gap-4 pb-4" >
+              { testimonials.map((testimonial) => (
+                <div className="bg-white border border-black/20 rounded-3xl p-6" key ={testimonial.username} >
+                  <div className="flex justify-center " >
+                      <Image src={`/${testimonial.imageSrc}`} alt={testimonial.username} width={300} height={300} className="size-24" />
+                  </div>
+                  <h4 className="text-3xl text-center mt-4" >{testimonial.name}</h4>
+                  <p className="text-center text-black/60 mt-2" >{testimonial.text}</p>
                 </div>
-                <h4 className="text-3xl text-center mt-4" >{testimonial.name}</h4>
-                <p className="text-center text-black/60 mt-2" >{testimonial.text}</p>
-              </div>
-            )) }
+              )) }
+            </div> */}
+            < TestimonialsColumn testimonials={testimonials} />
+            < TestimonialsColumn testimonials={testimonials.slice().reverse()} className="hidden md:flex" reverse />
+            </div>
           </div>
         </div>
       </div>
