@@ -62,7 +62,7 @@ export type testimonialsType = typeof testimonials;
 
 export const Testimonials = () => {
   return (
-    <section className="py-10 overflow-hidden p-5" >
+    <section className="py-10 overflow-hidden p-5 flex flex-col items-center justify-center" >
       <div className="container">
          <div className="grid lg:grid-cols-2 items-center lg:gap-16" >
           <div>
