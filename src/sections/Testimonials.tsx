@@ -1,5 +1,4 @@
 import TestimonialsColumn from "@/components/testimonialsColumn";
-import Image from "next/image";
 
 const testimonials = [
   {

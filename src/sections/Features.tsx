@@ -1,6 +1,5 @@
 
 import { Feature } from "@/components/Feature";
-import Image from "next/image";
 
 const features = [
   {

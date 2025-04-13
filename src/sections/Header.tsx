@@ -1,8 +1,5 @@
 import Image from "next/image";
 
-const navlinks = [
-  { label:"Home", href:"#" }
-]
 
 export const Header = () => {
   return (

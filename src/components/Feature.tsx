@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { motion, useMotionTemplate, useMotionValue } from 'framer-motion';
 
-export const Feature = ({ id, title, description } : { id:number, title?:String, description?:String }) => {
+export const Feature = ({ id, title, description } : { id:number, title?:string, description?:string }) => {
   const offsetX = useMotionValue(0);
   const offsetY = useMotionValue(0);
   const maskImage = useMotionTemplate`radial-gradient(100px 100px at ${offsetX}px ${offsetY}px, black, transparent)`;
@@ -20,7 +20,7 @@ export const Feature = ({ id, title, description } : { id:number, title?:String,
     return () => {
       window.removeEventListener('mousemove', updateMousePosition)
     }
-  },[])
+  },[offsetX, offsetY])
 
     return (
         <div key={id} className="relative max-w-[450px] border-1 border-black/60 p-5 text-center items-center rounded-xl flex flex-row sm:flex-col justify-center gap-4 hover:bg-gray-200 transition-colors duration-500 ">
