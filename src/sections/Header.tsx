@@ -14,12 +14,11 @@ export const Header = () => {
             <Image src="./menu.svg" alt="Menu" width={40} height={40} className="ml-auto md:hidden " />
             <nav className="hidden md:flex gap-8 text-black/70 items-center" >
               <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Services</a>
-              <a href="#">Features</a>
-              <a href="#">Testimonials</a>
+              <a href="#about">About</a>
+              <a href="#features">Services</a>
+              <a href="#testimonials">Testimonials</a>
               <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight" >
-                <a href="#">Contact Us</a>
+                <a href="#contact">Contact Us</a>
               </button>
             </nav>
           </div>

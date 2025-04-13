@@ -2,8 +2,8 @@ import { FaFacebook, FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "reac
 
 export const Footer = () => {
   return (
-    <footer className="pt-22 pb-22 bg-gray-950 " >
-      <div className="w-[80%] mx-auto items-start grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-4 md:gap-30" >
+    <footer id="contact" className="pt-22 pb-22 bg-gray-950 " >
+      <div className="w-[80%] mx-auto items-start grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-4 md:gap-30" >
         <div className="p-7" >
           <div className="text-white font-bold text-3xl  ">logo here</div>
           <p className="mt-5 font-semibold text-gray-300 text-sm" >
@@ -11,16 +11,16 @@ export const Footer = () => {
             optio consequuntur animi fugiat atque et velit dolore fugit quos vel ab eveniet accusantium laudantium dolorem officiis.
           </p>
           <div className="flex item-center text-white space-x-4 mt-6" >
-            <div className="w-8 h-8 bg-yellow-700 flex items-center justify-center flex-col rounded-full">
+            <div className="w-8 h-8 bg-yellow-700 flex items-center justify-center flex-col rounded-[50%]">
               <FaFacebookF />
             </div>
-            <div className="w-8 h-8 bg-yellow-700 flex items-center justify-center flex-col rounded-full">
+            <div className="w-8 h-8 bg-yellow-700 flex items-center justify-center flex-col rounded-[50%]">
               <FaTwitter />
             </div>
-            <div className="w-8 h-8 bg-yellow-700 flex items-center justify-center flex-col rounded-full">
+            <div className="w-8 h-8 bg-yellow-700 flex items-center justify-center flex-col rounded-[50%]">
               <FaInstagram />
             </div>
-            <div className="w-8 h-8 bg-yellow-700 flex items-center justify-center flex-col rounded-full">
+            <div className="w-8 h-8 bg-yellow-700 flex items-center justify-center flex-col rounded-[50%]">
               <FaYoutube />
             </div>
           </div>
@@ -29,11 +29,10 @@ export const Footer = () => {
         <div className="space-y-5 p-7" >
           <h1 className="text-lg text-white font-bold" >Company </h1>
           <p className="text-gray-300 hover-text-gray-450 font-medium cursor-pointer text-sm"><a href="#">Home</a></p>
-          <p className="text-gray-300 hover-text-gray-450 font-medium cursor-pointer text-sm"><a href="#">Home</a></p>
-          <p className="text-gray-300 hover-text-gray-450 font-medium cursor-pointer text-sm"><a href="#">Home</a></p>
-          <p className="text-gray-300 hover-text-gray-450 font-medium cursor-pointer text-sm"><a href="#">Home</a></p>
-          <p className="text-gray-300 hover-text-gray-450 font-medium cursor-pointer text-sm"><a href="#">Home</a></p>
-          <p className="text-gray-300 hover-text-gray-450 font-medium cursor-pointer text-sm"><a href="#">Home</a></p>
+          <p className="text-gray-300 hover-text-gray-450 font-medium cursor-pointer text-sm"><a href="#about">About</a></p>
+          <p className="text-gray-300 hover-text-gray-450 font-medium cursor-pointer text-sm"><a href="#features">Services</a></p>
+          <p className="text-gray-300 hover-text-gray-450 font-medium cursor-pointer text-sm"><a href="#testimonials">Testimonials</a></p>
+          <p className="text-gray-300 hover-text-gray-450 font-medium cursor-pointer text-sm"><a href="#contact">Contact Us</a></p>
         </div>
 
         <div className="p-7" >

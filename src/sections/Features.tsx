@@ -37,10 +37,10 @@ const features = [
 
 export const Features = () => {
   return (
-    <section className="bg-white/70 text-black/70 p-5 py-[72px] flex flex-col items-center ">
+    <section id="features" className="bg-white/70 text-black/70 p-5 py-[72px] flex flex-col items-center ">
       <div className="container ">
-        <h2 className="text-center font-bold text-5xl tracking-tighter">Services</h2>
-        <p className="text-center mt-5 text-xl text-black/60">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum autem esse ipsum magnam doloremque sit id temporibus numquam quidem doloribus odio consectetur, sint rerum.</p>
+        <h2 className="text-center font-bold text-4xl md:text-6xl tracking-tighter bg-gradient-to-b from-black to-[#868d25] text-transparent bg-clip-text mt-6">Services</h2>
+        <p className="text-center mt-5 text-xl px-2 md:px-40 text-black/60">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum autem esse ipsum magnam doloremque sit id temporibus numquam quidem doloribus odio consectetur, sint rerum.</p>
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
           {features.map(({ title, description, id }) => (
             // <div key={id} className="max-w-[450px] border border-black/40 p-5 text-center items-center rounded-xl flex flex-row sm:flex-col justify-center gap-4 hover:border-black/70">

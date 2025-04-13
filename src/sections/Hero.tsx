@@ -10,9 +10,9 @@ export const Hero = () => {
           <p className="text-xl text-[#454911] tracking-tight mt-6" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe eaque 
             aperiam assumenda rem in? Pariatur quos nostrum nam porro. Unde!</p>
           <div className="flex gap-1 items-center mt-[30px] " >
-            <button className="btn btn-primary" >Get in Touch</button>
+            <button className="btn btn-primary" ><a href="#contact">Get in Touch</a></button>
             <button className="btn btn-text flex items-center justify-center" >
-              <span className="text-lg" >Explore</span>
+              <span className="text-lg" ><a href="#about">Explore</a></span>
               <span className="flex" >
                 <Image src="./arrow-right.svg" alt="->" width={22} height={22} />
               </span>
