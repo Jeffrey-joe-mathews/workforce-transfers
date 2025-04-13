@@ -1,3 +1,4 @@
+import { About } from '@/sections/About';
 import { Features } from '@/sections/Features';
 import { Footer } from '@/sections/Footer';
 import { Header } from '@/sections/Header'
@@ -11,8 +12,9 @@ export default function Home() {
       <Header />
       <Hero />
       <LogoTicker />
-      <Testimonials />
+      <About />
       <Features />
+      <Testimonials />
       <Footer />
     </>
   );

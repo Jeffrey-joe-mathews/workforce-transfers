@@ -3,7 +3,7 @@ import { FaFacebook, FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "reac
 export const Footer = () => {
   return (
     <footer className="pt-22 pb-22 bg-gray-950 " >
-      <div className="w-[80%] mx-auto items-start grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-30" >
+      <div className="w-[80%] mx-auto items-start grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-4 md:gap-30" >
         <div className="p-7" >
           <div className="text-white font-bold text-3xl  ">logo here</div>
           <p className="mt-5 font-semibold text-gray-300 text-sm" >
