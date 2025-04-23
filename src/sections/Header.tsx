@@ -54,12 +54,12 @@ export const Header = () => {
               />
             </div>
 
-            <nav className="hidden md:flex gap-10 items-center text-black/70">
+            <nav className="hidden md:flex gap-8 items-center text-black/70">
               <a href="#">Home</a>
               <a href="#about">About</a>
               <a href="#features">Services</a>
               <a href="#testimonials">Testimonials</a>
-              <button className="bg-black text-white px-4 py-4 rounded-lg font-medium inline-flex items-center justify-center tracking-tight w-full">
+              <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight">
                 <a href="#contact">Contact Us</a>
               </button>
             </nav>
