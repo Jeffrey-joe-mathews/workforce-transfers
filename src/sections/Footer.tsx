@@ -7,8 +7,7 @@ export const Footer = () => {
         <div className="p-7" >
           <div className="text-white font-bold text-3xl  ">logo here</div>
           <p className="mt-5 font-semibold text-gray-300 text-sm" >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae non omnis assumenda totam, 
-            optio consequuntur animi fugiat atque et velit dolore fugit quos vel ab eveniet accusantium laudantium dolorem officiis.
+            Smarter mobility starts here. We help businesses move their teams reliably—on time, every time, with zero hassle.
           </p>
           <div className="flex item-center text-white space-x-4 mt-6" >
             <div className="w-8 h-8 bg-yellow-700 flex items-center justify-center flex-col rounded-[50%]">
@@ -27,7 +26,7 @@ export const Footer = () => {
         </div>
 
         <div className="space-y-5 p-7" >
-          <h1 className="text-lg text-white font-bold" >Company </h1>
+          <h1 className="text-lg text-white font-bold" >Links </h1>
           <p className="text-gray-300 hover-text-gray-450 font-medium cursor-pointer text-sm"><a href="#">Home</a></p>
           <p className="text-gray-300 hover-text-gray-450 font-medium cursor-pointer text-sm"><a href="#about">About</a></p>
           <p className="text-gray-300 hover-text-gray-450 font-medium cursor-pointer text-sm"><a href="#features">Services</a></p>
@@ -36,12 +35,12 @@ export const Footer = () => {
         </div>
 
         <div className="p-7" >
-          <h1 className="text-lg text-white font-bold" >Get In Ouch </h1>
+          <h1 className="text-lg text-white font-bold" >Get In Touch </h1>
           <div className="mt-6" >
             <h1 className="text-sm text-white" >Contact</h1>
             <h1 className="text-base font-bold text-white mt-1 " >1234567890</h1>
             <h1 className="text-sm text-white" >Address</h1>
-            <h1 className="text-base font-bold text-white mt-1 " >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquam facilis quia.</h1>
+            <h1 className="text-base font-bold text-white mt-1 " >WF Transfers Mobility Private Limited, 92/93, Ground floor, White House Building, Chelkere, Kalyan Nagar, Bangalore - 560043, India</h1>
           </div>
         </div>
 

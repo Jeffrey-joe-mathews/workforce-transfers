@@ -28,11 +28,11 @@ At <b>Workforce Transfers</b>, we’re redefining <b>employee transportation</b>
 Built on the experience and technology infrastructure garnered from major car rental companies, Workforce Transfers <b>blends legacy excellence with next-gen innovation</b>. Our platform integrates AI-powered scheduling, real-time tracking, and mobile-first interfaces to deliver consistent, efficient service at scale—customized to meet your organizational needs.
               <br /><br />
               <b className="text-2xl">Our Vision</b><br /><br />
-              To become India’s most trusted and scalable employee transportation provider, delivering smart mobility across all major metro cities.
+              To become <strong>India’s most trusted and scalable employee transportation provider</strong>, delivering smart mobility across all major metro cities.
               <br />
               <br />
               <b className="text-2xl" >Where We Operate</b><br /><br />
-              Currently operational in Bangalore, we are rapidly scaling up and plan to establish full-fledged services in Delhi NCR, Mumbai, Chennai, Hyderabad, Pune, and Kolkata within the next 12 months.
+              Currently operational in <strong>Bangalore</strong>, we are rapidly scaling up and plan to establish full-fledged services in <strong>Delhi NCR, Mumbai, Chennai, Hyderabad, Pune, and Kolkata</strong> within the next 12 months.
             </p>
           </div>
 

@@ -66,7 +66,7 @@ export const Testimonials = () => {
          <div className="grid lg:grid-cols-2 items-center lg:gap-16" >
           <div className="flex flex-col gap-5" >
             <h2 className="text-4xl md:text-6xl font-semibold tracking-tight text-center bg-gradient-to-b from-black to-[#868d25] text-transparent bg-clip-text mt-6" >Testimonials</h2>
-            <p className="text-[#454911] text-xl" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati odio, explicabo dolore totam veritatis, eos reprehenderit animi similique voluptates fugiat officiis nulla, iure ducimus eligendi ipsam eaque. Fugit, maxime similique? Inventore dicta nostrum placeat dolore!</p>
+            <p className="text-[#454911] text-xl" >We take pride in delivering consistent, reliable service. But don’t just take our word for it—see what our clients have to say</p>
           </div>
           <div>
             <div className="h-[400px] lg:h-[800px] grid md:grid-cols-2 gap-5 mt-8 overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,white_10%,white_90%,transparent)]" >

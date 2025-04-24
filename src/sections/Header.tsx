@@ -42,22 +42,23 @@ export const Header = () => {
       <div className="p-5 flex justify-center items-center">
         <div className="container">
           <div className="flex justify-between items-center">
-            <Image src="/logosaas.png" alt="Company Logo" width={40} height={40} priority />
+            <Image src="/logo.svg" alt="Company Logo" width={50} height={50} priority />
 
             <div onClick={toggleMenu} className="cursor-pointer md:hidden">
               <Image
                 // src={isOpen ? "/close.svg" : "/menu.svg"}
                 src={iconSrc}
                 alt="Menu"
-                width={40}
-                height={40}
+                width={50}
+                height={50}
               />
             </div>
 
             <nav className="hidden md:flex gap-8 items-center text-black/70">
               <a href="#">Home</a>
               <a href="#about">About</a>
-              <a href="#features">Services</a>
+              <a href="#services">Services</a>
+              <a href="#features">Features</a>
               <a href="#testimonials">Testimonials</a>
               <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight">
                 <a href="#contact">Contact Us</a>
@@ -75,7 +76,8 @@ export const Header = () => {
           >
             <a href="#" onClick={toggleMenu}>Home</a>
             <a href="#about" onClick={toggleMenu}>About</a>
-            <a href="#features" onClick={toggleMenu}>Services</a>
+            <a href="#services" onClick={toggleMenu}>Services</a>
+            <a href="#features" onClick={toggleMenu}>Features</a>
             <a href="#testimonials" onClick={toggleMenu}>Testimonials</a>
             <a
               href="#contact"
