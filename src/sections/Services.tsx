@@ -1,7 +1,7 @@
 // components/Services.tsx
 'use client'
 
-import React from 'react'
+import React, { useState } from 'react'
 import Image from "next/image"
 
 // const services = [
@@ -34,7 +34,8 @@ import Image from "next/image"
 const services = [
   {
     id: 1,
-    title: "Chauffeur Drive Services",
+    title: "Chauffeur Drive",
+    logo: "./chauffeur.svg",
     src: "/chaffeur.jpeg",
     content: (
       <>
@@ -42,9 +43,11 @@ const services = [
         <p>
           At Workforce Transfers, we offer <strong>premium chauffeur-driven car rental solutions</strong> for both corporate and personal travel. Our platform provides:
         </p>
+        <p className='hidden md:block' >
         Seamless booking
         Real-time tracking
         Professional service for executive travel and airport transfers
+        </p>
         <p>
           Choose from a diverse fleet:
         </p>
@@ -54,7 +57,7 @@ const services = [
           <li>Executive <strong>Sedan</strong> and <strong>SUVs</strong></li>
           <li>Luxury vehicles from <strong>BMW, Mercedes-Benz, and Audi</strong></li>
         </ul>
-        <p>
+        <p className='hidden md:block'>
           Whether it's <strong>hourly, full-day, or monthly hire</strong>, our trained chauffeurs and customizable packages guarantee a <strong>smooth and secure experience</strong>.
         </p>
       </>
@@ -62,15 +65,16 @@ const services = [
   },
   {
     id: 2,
-    title: "Airport Transfer Services",
+    title: "Airport Transfer",
+    image: "./airport.svg",
     src: "/airport.png",
     content: (
       <>
         <p>
           Workforce Transfers delivers <strong>reliable, cost-effective airport transfers</strong> for corporate travel—anytime, anywhere.
         </p>
-        <ul className="list-disc list-inside my-2">
-          <li>Timely pickups & drop-offs 24/7</li>
+        <ul className="list-none list-inside my-2">
+          <li><strong>Timely</strong> pickups & drop-offs 24/7</li>
           <li>Fleet includes sedans, MUVs, and luxury options</li>
           <li><strong>Real-time tracking</strong> and <strong>flight monitoring</strong></li>
         </ul>
@@ -82,23 +86,24 @@ const services = [
   },
   {
     id: 3,
-    title: "Employee Transportation Services",
+    title: "Employee Transportation",
+    image: "./employee_transportation.svg",
     src: "/employee.jpeg",
     content: (
       <>
         <p>
           We provide <strong>end-to-end employee transportation solutions</strong> tailored for modern workplaces.
         </p>
-        <ul className="list-disc list-inside my-2">
+        <ul className="list-none list-inside my-2">
           <li>Shift-based travel and fixed-route shuttles</li>
           <li><strong>Automated route optimization</strong> to cut time and costs</li>
           <li>Real-time vehicle tracking and monitoring</li>
-          <li>Safe, trained chauffeurs with soft skills</li>
+          <li>Safe, <strong>trained chauffeurs</strong> with soft skills</li>
         </ul>
         <p>
           Our fleet includes <strong>economy cars, MUVs, and buses</strong>—customized for your workforce size. Ideal for <strong>BPOs, IT parks, and manufacturing units</strong>.
         </p>
-        <p>
+        <p className='hidden md:block' >
           With centralized billing and performance dashboards, we ensure your team travels <strong>punctually, securely, and efficiently</strong>.
         </p>
       </>
@@ -107,21 +112,22 @@ const services = [
   {
     id: 4,
     title: "Special Events Transportation",
+    image: "./events.svg",
     src: "/events.png",
     content: (
       <>
         <p>
           Offering <strong>customized chauffeur-driven solutions</strong> for:
         </p>
-        <ul className="list-disc list-inside my-2">
+        <ul className="list-none list-inside my-2">
           <li>Corporate events & offsite meetings</li>
-          <li>VIP movements and executive gatherings</li>
-          <li>Conferences & inter-city business travel</li>
+          <li><strong>VIP movements</strong> and executive gatherings</li>
+          <li>Conferences & <strong>inter-city business travel</strong></li>
         </ul>
         <p>
           Fleet options include <strong>executive sedans</strong> to <strong>super luxury vehicles</strong> (BMW, Audi, Mercedes-Benz), with or without fuel.
         </p>
-        <p>
+        <p className='hidden md:block' >
           Backed by <strong>trained chauffeurs</strong>, on-ground coordination, and flexible rental plans, we ensure your events run <strong>on time and leave a lasting impression</strong>.
         </p>
       </>
@@ -160,16 +166,19 @@ const services = [
 // };
 
 export const Services = () => {
+    const [ activeService, setActveServce ] = useState(null);
   return (
+    <>
     <section id="services" className="py-16 px-6 bg-gray-100">
+    <h2 className="text-center font-bold text-4xl md:text-6xl tracking-tighter bg-gradient-to-b from-black to-[#868d25] text-transparent bg-clip-text mt-6 mb-12">Services</h2>
       <div className="max-w-7xl mx-auto space-y-24">
         {services.map((service, index) => (
-          <div
+            <div
             key={service.id}
             className={`flex flex-col-reverse md:flex-row items-center gap-12 ${
-              index % 2 !== 0 ? 'md:flex-row-reverse' : ''
+                index % 2 !== 0 ? 'md:flex-row-reverse' : ''
             }`}
-          >
+            >
             {/* Text Block */}
             <div className="w-full md:w-1/2 text-left space-y-4">
               <h3 className="text-3xl font-bold text-gray-800">{service.title}</h3>
@@ -192,6 +201,7 @@ export const Services = () => {
         ))}
       </div>
     </section>
+    </>
   );
 };
 
