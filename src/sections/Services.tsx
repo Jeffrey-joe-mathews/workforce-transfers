@@ -1,7 +1,5 @@
 // components/Services.tsx
 'use client'
-
-import React, { useState } from 'react'
 import Image from "next/image"
 
 // const services = [
@@ -58,7 +56,7 @@ const services = [
           <li>Luxury vehicles from <strong>BMW, Mercedes-Benz, and Audi</strong></li>
         </ul>
         <p className='hidden md:block'>
-          Whether it's <strong>hourly, full-day, or monthly hire</strong>, our trained chauffeurs and customizable packages guarantee a <strong>smooth and secure experience</strong>.
+          Whether it&apos;s <strong>hourly, full-day, or monthly hire</strong>, our trained chauffeurs and customizable packages guarantee a <strong>smooth and secure experience</strong>.
         </p>
       </>
     )
@@ -166,7 +164,6 @@ const services = [
 // };
 
 export const Services = () => {
-    const [ activeService, setActveServce ] = useState(null);
   return (
     <>
     <section id="services" className="py-16 px-6 bg-gray-100">

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from 'framer-motion'
 
 export const LogoTicker = () => {
-  return <section className="py-8 bg-white flex flex-col justify-center items-center " >
+  return <section id="logotic" className="py-8 bg-white flex flex-col justify-center items-center " >
     <div className="container">
       <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]" >
       <motion.div 
