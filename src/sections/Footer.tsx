@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className="w-[80%] mx-auto items-start grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-4 md:gap-30" >
         <div className="justify-center items-center flex flex-col p-7" >
           <div className="text-white font-bold text-3xl  ">
-            <Image src='./wft_full.svg' alt="" className="invert w-60" />
+            <img src="./wft_full.svg" alt="" className="invert w-60"/>
           </div>
           {/* <p className="mt-5 font-semibold text-gray-300 text-sm" >
             Smarter mobility starts here. We help businesses move their teams reliably—on time, every time, with zero hassle.
