@@ -28,7 +28,7 @@ export default function TestimonialsColumn( props: {testimonials : testimonialsT
                     { testimonials.map((testimonial) => (
                       <div className="bg-white border border-black/20 rounded-3xl p-6" key ={testimonial.username} >
                         <div className="flex justify-center " >
-                          <Image src={`/${testimonial.imageSrc}`} alt={testimonial.username} width={300} height={300} className="size-24" />
+                          <Image src={`/${testimonial.imageSrc}`} alt={testimonial.username} width={300} height={300} className="size-24 rounded-[50%]" />
                         </div>
                         <h4 className="text-3xl text-center mt-4" >{testimonial.name}</h4>
                         <p className="text-center text-black/60 mt-2" >{testimonial.text}</p>

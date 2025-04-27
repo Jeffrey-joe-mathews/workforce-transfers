@@ -22,7 +22,7 @@ export const Hero = () => {
         </div>
         <div className="relative flex justify-center items-center w-full md:flex-1 md:h-[648px] h-[400px] mt-0 ml-0 md:mt-0 lg:ml-12 lg:mb-20">
   <Image
-    src="/heroImage.png"
+    src="/hero.png"
     alt="Car Image"
     width={1200}
     height={800}

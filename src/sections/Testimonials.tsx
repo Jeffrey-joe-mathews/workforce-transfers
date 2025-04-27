@@ -2,59 +2,59 @@ import TestimonialsColumn from "@/components/testimonialsColumn";
 
 const testimonials = [
   {
-    text: "As a seasoned designer always on the lookout for innovative tools, Framer.com instantly grabbed my attention.",
+    text: "Workforce Transfers combines comfort, safety, and professionalism flawlessly",
     imageSrc: "avatar-1.png",
-    name: "Jamie Rivera",
-    username: "@jamietechguru00",
+    name: "Vilas Badarinath",
+    username: "@vilasbadarinath",
   },
   {
-    text: "Our team's productivity has skyrocketed since we started using this tool. ",
+    text: "Seamless booking, punctual drivers — Workforce Transfers keeps our teams moving!",
     imageSrc: "avatar-2.png",
-    name: "Josh Smith",
-    username: "@jjsmith",
+    name: "Srikanth B",
+    username: "@SrikanthB",
   },
   {
-    text: "This app has completely transformed how I manage my projects and deadlines.",
+    text: "From booking to drop-off, Workforce Transfers makes corporate travel effortless.",
     imageSrc: "avatar-3.png",
-    name: "Morgan Lee",
-    username: "@morganleewhiz",
+    name: "Waheed Raza",
+    username: "@WaheedRaza",
   },
   {
-    text: "I was amazed at how quickly we were able to integrate this app into our workflow.",
+    text: "Exceptional service and spotless vehicles — our trusted partner for employee transport.",
     imageSrc: "avatar-4.png",
-    name: "Casey Jordan",
-    username: "@caseyj",
+    name: "Imran CA",
+    username: "@ImranCA",
   },
   {
-    text: "Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.",
+    text: "The perfect transportation partner for companies that value reliability and service.",
     imageSrc: "avatar-5.png",
-    name: "Taylor Kim",
-    username: "@taylorkimm",
+    name: "Manjunath krishnappa",
+    username: "@Manjunathkrishnappa",
   },
-  {
-    text: "The customizability and integration capabilities of this app are top-notch.",
-    imageSrc: "avatar-6.png",
-    name: "Riley Smith",
-    username: "@rileysmith1",
-  },
-  {
-    text: "Adopting this app for our team has streamlined our project management and improved communication across the board.",
-    imageSrc: "avatar-7.png",
-    name: "Jordan Patels",
-    username: "@jpatelsdesign",
-  },
-  {
-    text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
-    imageSrc: "avatar-8.png",
-    name: "Sam Dawson",
-    username: "@dawsontechtips",
-  },
-  {
-    text: "Its user-friendly interface and robust features support our diverse needs.",
-    imageSrc: "avatar-9.png",
-    name: "Casey Harper",
-    username: "@casey09",
-  },
+  // {
+  //   text: "The customizability and integration capabilities of this app are top-notch.",
+  //   imageSrc: "avatar-6.png",
+  //   name: "Riley Smith",
+  //   username: "@rileysmith1",
+  // },
+  // {
+  //   text: "Adopting this app for our team has streamlined our project management and improved communication across the board.",
+  //   imageSrc: "avatar-7.png",
+  //   name: "Jordan Patels",
+  //   username: "@jpatelsdesign",
+  // },
+  // {
+  //   text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+  //   imageSrc: "avatar-8.png",
+  //   name: "Sam Dawson",
+  //   username: "@dawsontechtips",
+  // },
+  // {
+  //   text: "Its user-friendly interface and robust features support our diverse needs.",
+  //   imageSrc: "avatar-9.png",
+  //   name: "Casey Harper",
+  //   username: "@casey09",
+  // },
 ];
 
 export type testimonialsType = typeof testimonials;

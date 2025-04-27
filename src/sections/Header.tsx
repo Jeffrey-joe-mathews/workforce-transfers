@@ -39,10 +39,10 @@ export const Header = () => {
 
   return (
     <header className="sticky top-0 backdrop-blur-sm z-20">
-      <div className="px-5 md:p-5 flex justify-center items-center">
+      <div className="px-5 py-2 flex justify-center items-center">
         <div className="container py-2">
           <div className="flex justify-between items-center ">
-            <Image src="/logo.svg" alt="Company Logo" width={50} height={50} priority />
+            <Image src="/wft_half.svg" alt="Company Logo" width={100} height={70} priority />
 
             <div onClick={toggleMenu} className="cursor-pointer md:hidden">
               <Image
