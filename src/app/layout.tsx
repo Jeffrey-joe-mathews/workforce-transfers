@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
+import { Comfortaa } from "next/font/google";
 import "./globals.css";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
   variable: "--font-dm-sans",
 });
+
+const comfortaa = Comfortaa({
+  subsets: ["latin"],
+  variable: "--font-comfortaa",
+})
 
 export const metadata: Metadata = {
   title: "Workforce Transfers Landing Page",
@@ -20,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en"  >
       <body
-        className={`${dmSans.variable} antialiased bg-[#EAEEFE]`}
+        className={`${dmSans.variable} ${comfortaa.variable} antialiased bg-[#EAEEFE]`}
       >
         {children}
       </body>

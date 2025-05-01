@@ -31,6 +31,12 @@ const testimonials = [
     name: "Manjunath krishnappa",
     username: "@Manjunathkrishnappa",
   },
+  {
+    text: "Dependable transport solutions that power our business forward!",
+    imageSrc: "avatar-6.png",
+    name: "Rebu Samuel",
+    username: "@RebuSamuel"
+  }
   // {
   //   text: "The customizability and integration capabilities of this app are top-notch.",
   //   imageSrc: "avatar-6.png",

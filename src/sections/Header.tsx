@@ -42,7 +42,10 @@ export const Header = () => {
       <div className="px-5 py-2 flex justify-center items-center">
         <div className="container py-2">
           <div className="flex justify-between items-center ">
-            <Image src="/wft_half.svg" alt="Company Logo" width={100} height={70} priority />
+            <div className="flex justify-center items-center gap-4" >
+            <Image src="/logo.svg" alt="Company Logo" width={45} height={45} priority />
+            <span className="text-xl font-bold [font-family:var(--font-comfortaa)]">workforce transfers</span>
+            </div>
 
             <div onClick={toggleMenu} className="cursor-pointer md:hidden">
               <Image
@@ -70,8 +73,8 @@ export const Header = () => {
           <div
             className={`
               md:hidden transition-all duration-500 overflow-hidden
-              ${isOpen ? "max-h-60 opacity-100" : "max-h-0 opacity-0"}
-              flex flex-col gap-4 mt-4 ${navLinkStyle}
+              ${isOpen ? "max-h-60 opacity-100" : "h-0 opacity-0"}
+              flex flex-col gap-4 ${navLinkStyle}
             `}
           >
             <a href="#" onClick={toggleMenu}>Home</a>

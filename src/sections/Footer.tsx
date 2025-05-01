@@ -41,7 +41,7 @@ export const Footer = () => {
           <h1 className="text-lg text-white font-bold" >Get In Touch </h1>
           <div className="mt-6" >
             <h1 className="text-sm text-white" >Contact</h1>
-            <h1 className="text-base font-bold text-white mt-1 " >+91 9845092228</h1>
+            <h1 className="text-base font-bold text-white mt-1 " >+91 9845082228</h1>
             <h1 className="text-sm text-white" >Address</h1>
             <h1 className="text-base font-bold text-white mt-1 " >WF Transfers Mobility Private Limited, 92/93, Ground floor, White House Building, Chelkere, Kalyan Nagar, Bangalore - 560043, India</h1>
           </div>

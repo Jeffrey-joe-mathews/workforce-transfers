@@ -59,11 +59,12 @@ export const Contact = () => {
   };
 
   return (
-    <section className="py-16">
-      <h1 className="text-2xl sm:text-3xl text-center font-bold">Get In Touch</h1>
-      <p className="text-center text-sm sm:text-base text-gray-700 mt-4">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      </p>
+    <section className="py-10 overflow-hidden p-5 flex flex-col items-center justify-center">
+      
+      <div className="flex flex-col gap-5" >
+        <h2 className="text-4xl md:text-6xl font-semibold tracking-tight text-center bg-gradient-to-b from-black to-[#868d25] text-transparent bg-clip-text mt-6" >Get In Touch</h2>
+        <p className="text-[#454911] text-xl" ></p>
+      </div>
 
       <form
         onSubmit={handleSubmit}
