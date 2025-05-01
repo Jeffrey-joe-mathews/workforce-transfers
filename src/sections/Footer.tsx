@@ -12,16 +12,16 @@ export const Footer = () => {
             Smarter mobility starts here. We help businesses move their teams reliably—on time, every time, with zero hassle.
           </p> */}
           <div className="flex item-center text-white space-x-4 mt-6" >
-            <div className="w-8 h-8 bg-yellow-700 flex items-center justify-center flex-col rounded-[50%]">
+            <div className="w-8 h-8 bg-yellow-600 flex items-center justify-center flex-col rounded-[50%]">
               <FaFacebookF />
             </div>
-            <div className="w-8 h-8 bg-yellow-700 flex items-center justify-center flex-col rounded-[50%]">
+            <div className="w-8 h-8 bg-yellow-600 flex items-center justify-center flex-col rounded-[50%]">
               <FaTwitter />
             </div>
-            <div className="w-8 h-8 bg-yellow-700 flex items-center justify-center flex-col rounded-[50%]">
+            <div className="w-8 h-8 bg-yellow-600 flex items-center justify-center flex-col rounded-[50%]">
               <FaInstagram />
             </div>
-            <div className="w-8 h-8 bg-yellow-700 flex items-center justify-center flex-col rounded-[50%]">
+            <div className="w-8 h-8 bg-yellow-600 flex items-center justify-center flex-col rounded-[50%]">
               <FaYoutube />
             </div>
           </div>

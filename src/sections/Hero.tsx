@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <section className="flex h-full md:h-[calc(100vh-80px)] pt pt-0 pb-0 md:pt-4 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#868D2F,#EAEEFE_66%)] items-center justify-center overflow-x-clip" >
+    <section className="flex h-full md:h-[calc(100vh-60px)] pt pt-0 pb-0 md:pt-4 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#868D2F,#EAEEFE_66%)] items-center justify-center overflow-x-clip" >
       <div className="container p-5 md:flex items-center justify-center">
         <div className="flex flex-col items-center justify-center mr-12">
           <div className="flex flex-col justify-center items-center h-max md:w-[478px]">
