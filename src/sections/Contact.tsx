@@ -77,6 +77,7 @@ export const Contact = () => {
             className="w-full block text-black bg-gray-200 shadow-md outline-none px-6 py-3.5 rounded-md"
           />
         </div>
+        <br className='inline md:hidden' />
         <div className="h-full">
           <textarea
             name="message"
